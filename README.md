@@ -1,6 +1,3 @@
-# PI20-015 Alca transport 
-mentor: Zlatko Stapić 
-
 ## Projektni tim
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
