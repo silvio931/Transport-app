@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A22001A7-25CA-491E-8861-0810342A3A34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TransportApp</RootNamespace>
+    <AssemblyName>TransportApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionDlg.AadAuthenticationProvider, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aplikacijski sloj\TvrtkaRepozitorij.cs" />
+    <Compile Include="Sloj prezentacije\DodajTvrtkuForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajTvrtkuForma.Designer.cs">
+      <DependentUpon>DodajTvrtkuForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisTvrtkiUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisTvrtkiUC.Designer.cs">
+      <DependentUpon>IspisTvrtkiUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj upravljanja podacima\Database.cs" />
+    <Compile Include="Sloj prezentacije\DodajRutuForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajRutuForma.Designer.cs">
+      <DependentUpon>DodajRutuForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajVoziloForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajVoziloForma.Designer.cs">
+      <DependentUpon>DodajVoziloForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajZapisnikForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajZapisnikForma.Designer.cs">
+      <DependentUpon>DodajZapisnikForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajZaposlenikaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\DodajZaposlenikaForma.Designer.cs">
+      <DependentUpon>DodajZaposlenikaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\EmailUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\EmailUC.Designer.cs">
+      <DependentUpon>EmailUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\GlavnaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\GlavnaForma.Designer.cs">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj upravljanja podacima\Greska.cs" />
+    <Compile Include="Sloj prezentacije\IspisRutaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisRutaUC.Designer.cs">
+      <DependentUpon>IspisRutaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisVozilaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisVozilaUC.Designer.cs">
+      <DependentUpon>IspisVozilaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisZapisnikaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisZapisnikaUC.Designer.cs">
+      <DependentUpon>IspisZapisnikaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisZaposlenikaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\IspisZaposlenikaUC.Designer.cs">
+      <DependentUpon>IspisZaposlenikaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\Izvještaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\Izvještaj.Designer.cs">
+      <DependentUpon>Izvještaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\PrijavaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\PrijavaForma.Designer.cs">
+      <DependentUpon>PrijavaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\ProfilUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\ProfilUC.Designer.cs">
+      <DependentUpon>ProfilUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Sloj prezentacije\PromjenaKorisnickogImenaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\PromjenaKorisnickogImenaForma.Designer.cs">
+      <DependentUpon>PromjenaKorisnickogImenaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj prezentacije\PromjenaLozinkeForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\PromjenaLozinkeForma.Designer.cs">
+      <DependentUpon>PromjenaLozinkeForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sloj upravljanja podacima\Ruta.cs" />
+    <Compile Include="Aplikacijski sloj\RutaRepozitorij.cs" />
+    <Compile Include="Sloj upravljanja podacima\Tvrtka.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Sloj prezentacije\StatistikaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sloj prezentacije\StatistikaUC.Designer.cs">
+      <DependentUpon>StatistikaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sloj upravljanja podacima\Uloga.cs" />
+    <Compile Include="Aplikacijski sloj\Validacija.cs" />
+    <Compile Include="Sloj upravljanja podacima\Vozilo.cs" />
+    <Compile Include="Aplikacijski sloj\VoziloRepozitorij.cs" />
+    <Compile Include="Sloj upravljanja podacima\VrstaVozila.cs" />
+    <Compile Include="Sloj upravljanja podacima\Zapisnik.cs" />
+    <Compile Include="Aplikacijski sloj\ZapisnikRepozitorij.cs" />
+    <Compile Include="Sloj upravljanja podacima\Zaposlenik.cs" />
+    <Compile Include="Aplikacijski sloj\ZaposlenikRepozitorij.cs" />
+    <EmbeddedResource Include="AdminReport.rdlc" />
+    <EmbeddedResource Include="Sloj prezentacije\DodajRutuForma.resx">
+      <DependentUpon>DodajRutuForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\DodajTvrtkuForma.resx">
+      <DependentUpon>DodajTvrtkuForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\DodajVoziloForma.resx">
+      <DependentUpon>DodajVoziloForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\DodajZapisnikForma.resx">
+      <DependentUpon>DodajZapisnikForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\DodajZaposlenikaForma.resx">
+      <DependentUpon>DodajZaposlenikaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\EmailUC.resx">
+      <DependentUpon>EmailUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\GlavnaForma.resx">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\IspisRutaUC.resx">
+      <DependentUpon>IspisRutaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\IspisVozilaUC.resx">
+      <DependentUpon>IspisVozilaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\IspisZapisnikaUC.resx">
+      <DependentUpon>IspisZapisnikaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\IspisZaposlenikaUC.resx">
+      <DependentUpon>IspisZaposlenikaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\Izvještaj.resx">
+      <DependentUpon>Izvještaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\PrijavaForma.resx">
+      <DependentUpon>PrijavaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\ProfilUC.resx">
+      <DependentUpon>ProfilUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\PromjenaKorisnickogImenaForma.resx">
+      <DependentUpon>PromjenaKorisnickogImenaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\PromjenaLozinkeForma.resx">
+      <DependentUpon>PromjenaLozinkeForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\StatistikaUC.resx">
+      <DependentUpon>StatistikaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sloj prezentacije\IspisTvrtkiUC.resx">
+      <DependentUpon>IspisTvrtkiUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Greska.datasource" />
+    <None Include="Properties\DataSources\Ruta.datasource" />
+    <None Include="Properties\DataSources\Vozilo.datasource" />
+    <None Include="Properties\DataSources\Zapisnik.datasource" />
+    <None Include="Properties\DataSources\Zaposlenik.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-administrator-male-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-key-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Statistika\Statistika.csproj">
+      <Project>{b43c5c5a-cb7a-4816-b3c5-f50016c19c3d}</Project>
+      <Name>Statistika</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

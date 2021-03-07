@@ -1,0 +1,309 @@
+﻿Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Rolling back assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Attempt to stop service SendMailService.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Creating EventLog source SendMailService in log Application...
+Rolling back assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Restoring event log to previous state for source SendMailService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Creating EventLog source SendMailService in log Application...
+Rolling back assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Restoring event log to previous state for source SendMailService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing assembly 'C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Installing service SendMailService...
+Service SendMailService has been successfully installed.
+Creating EventLog source SendMailService in log Application...
+Committing assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Uninstalling assembly 'C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.InstallLog
+   assemblypath = C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+Removing EventLog source SendMailService.
+Service SendMailService is being removed from the system...
+Service SendMailService was successfully removed from the system.
+Attempt to stop service SendMailService.

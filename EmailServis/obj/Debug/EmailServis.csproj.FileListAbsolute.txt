@@ -1,0 +1,32 @@
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe.config
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.ProjectInstaller.resources
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.csproj.GenerateResource.cache
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.exe
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.pdb
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.pdb
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.csprojAssemblyReference.cache
+C:\Users\domag\Documents\projekt\EmailServis\bin\Debug\EmailServis.exe.config
+C:\Users\domag\Documents\projekt\EmailServis\bin\Debug\EmailServis.exe
+C:\Users\domag\Documents\projekt\EmailServis\bin\Debug\EmailServis.pdb
+C:\Users\domag\Documents\projekt\EmailServis\obj\Debug\EmailServis.csprojAssemblyReference.cache
+C:\Users\domag\Documents\projekt\EmailServis\obj\Debug\EmailServis.ProjectInstaller.resources
+C:\Users\domag\Documents\projekt\EmailServis\obj\Debug\EmailServis.csproj.GenerateResource.cache
+C:\Users\domag\Documents\projekt\EmailServis\obj\Debug\EmailServis.exe
+C:\Users\domag\Documents\projekt\EmailServis\obj\Debug\EmailServis.pdb
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe.config
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.exe
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\bin\Debug\EmailServis.pdb
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.ProjectInstaller.resources
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.exe
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\EmailServis\obj\Debug\EmailServis.pdb
+C:\Users\domag\Documents\PI projekt\EmailServis\bin\Debug\EmailServis.exe.config
+C:\Users\domag\Documents\PI projekt\EmailServis\bin\Debug\EmailServis.exe
+C:\Users\domag\Documents\PI projekt\EmailServis\bin\Debug\EmailServis.pdb
+C:\Users\domag\Documents\PI projekt\EmailServis\obj\Debug\EmailServis.csprojAssemblyReference.cache
+C:\Users\domag\Documents\PI projekt\EmailServis\obj\Debug\EmailServis.ProjectInstaller.resources
+C:\Users\domag\Documents\PI projekt\EmailServis\obj\Debug\EmailServis.csproj.GenerateResource.cache
+C:\Users\domag\Documents\PI projekt\EmailServis\obj\Debug\EmailServis.exe
+C:\Users\domag\Documents\PI projekt\EmailServis\obj\Debug\EmailServis.pdb

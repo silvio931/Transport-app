@@ -1,0 +1,18 @@
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\bin\Debug\Statistika.dll
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\bin\Debug\Statistika.pdb
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\obj\Debug\Statistika.dll
+C:\Users\domag\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\obj\Debug\Statistika.pdb
+C:\Users\domag\Documents\projekt\Statistika\bin\Debug\Statistika.dll
+C:\Users\domag\Documents\projekt\Statistika\bin\Debug\Statistika.pdb
+C:\Users\domag\Documents\projekt\Statistika\obj\Debug\Statistika.csprojAssemblyReference.cache
+C:\Users\domag\Documents\projekt\Statistika\obj\Debug\Statistika.dll
+C:\Users\domag\Documents\projekt\Statistika\obj\Debug\Statistika.pdb
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\bin\Debug\Statistika.dll
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\bin\Debug\Statistika.pdb
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\obj\Debug\Statistika.dll
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\obj\Debug\Statistika.pdb
+C:\Users\domag\Documents\PI projekt\Statistika\bin\Debug\Statistika.dll
+C:\Users\domag\Documents\PI projekt\Statistika\bin\Debug\Statistika.pdb
+C:\Users\domag\Documents\PI projekt\Statistika\obj\Debug\Statistika.dll
+C:\Users\domag\Documents\PI projekt\Statistika\obj\Debug\Statistika.pdb
+C:\Users\User\Desktop\Documents\GitHub\r20--smihalic-dmahnet-smrvcic\Statistika\obj\Debug\Statistika.csprojAssemblyReference.cache
